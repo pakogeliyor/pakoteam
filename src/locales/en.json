@@ -13,7 +13,7 @@
     "blog": "Blog",
     "community": "Community",
     "pkoop": "PKOOP",
-    "support": "Support",
+    "support": "Support Us",
     "help": "Help",
     "faq": "FAQ",
     "privacy": "Privacy and Data Sovereignty (KVKK)",
@@ -98,6 +98,11 @@
       "news": "News",
       "video": "Video",
       "documentary": "Documentary"
+    },
+    "buttons": {
+      "logo": "Logo Package (SVG/PNG)",
+      "photos": "Photo Archive",
+      "guidelines": "Pako Corporate Identity Guidelines (PDF)"
     }
   },
   "help": {
@@ -320,7 +325,7 @@
   "newsletter": {
     "title": "Get News from Us",
     "subtitle": "Be informed about the latest developments",
-    "placeholder": "mail@pako.com",
+    "placeholder": "your email",
     "cta": "join",
     "sending": "Sending...",
     "success": "✓ Successfully saved! Welcome to the newsletter.",

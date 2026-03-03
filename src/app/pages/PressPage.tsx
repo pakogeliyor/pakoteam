@@ -59,9 +59,9 @@ const fallbackCoverage: PressItem[] = [
   {
     id: '7',
     source: 'YouTube',
-    title: 'Patronsuz Kurye işbaşında',
+    title: 'Bisikletli Kuryeler İle Konuştuk | ULAK Özel Kuryeniz',
     date: '2021-03-22',
-    url: 'https://www.youtube.com/watch?v=n7DflOi82dI',
+    url: 'https://youtu.be/ZeilxrFQaJ8?si=EoKZnLiynHG8IA96',
     type: 'video',
   },
   {
@@ -85,7 +85,7 @@ export function PressPage() {
   return (
     <div className="bg-white dark:bg-gray-900 overflow-hidden">
       {/* Hero Section */}
-      <section className="relative pt-20 pb-16 bg-gradient-to-b from-[var(--color-primary)] to-[#1a0050] text-white">
+      <section className="relative pt-20 pb-16 bg-gradient-to-b from-[var(--color-primary)] to-[#1a0050] dark:from-black dark:to-black text-white">
         <Container>
           <div className="max-w-3xl">
             <motion.span
@@ -161,7 +161,7 @@ export function PressPage() {
       </section>
 
       {/* Press Kit Section */}
-      <section className="py-20 bg-[var(--color-primary)] text-white">
+      <section className="py-20 bg-[var(--color-primary)] dark:bg-black text-white">
         <Container>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="lg:w-1/2">
@@ -173,29 +173,47 @@ export function PressPage() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Button
+                  asChild
                   variant="outline"
                   className="flex items-center justify-between gap-4 h-auto py-5 px-5 group hover:bg-white/20"
                 >
-                  <span className="font-['Overpass',sans-serif] font-bold">
-                    Logo Paketi (SVG/PNG)
+                  <a
+                    href="/docs/Pako Logolar.zip"
+                    download="Pako_Logolar.zip"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="font-['Overpass',sans-serif] font-bold group-hover:text-white dark:group-hover:text-white transition-colors">
+                      {t('press.buttons.logo')}
+                    </span>
+                    <LucideFileDown className="size-5 text-[var(--color-secondary)] group-hover:translate-y-1 transition-transform" />
+                  </a>
+                </Button>
+                <Button
+                  variant="outline"
+                  className="flex items-center justify-between gap-4 h-auto py-5 px-5 group hover:bg-white/20"
+                >
+                  <span className="font-['Overpass',sans-serif] font-bold group-hover:text-white dark:group-hover:text-white transition-colors">
+                    {t('press.buttons.photos')}
                   </span>
                   <LucideFileDown className="size-5 text-[var(--color-secondary)] group-hover:translate-y-1 transition-transform" />
                 </Button>
                 <Button
-                  variant="outline"
-                  className="flex items-center justify-between gap-4 h-auto py-5 px-5 group hover:bg-white/20"
-                >
-                  <span className="font-['Overpass',sans-serif] font-bold">Fotoğraf Arşivi</span>
-                  <LucideFileDown className="size-5 text-[var(--color-secondary)] group-hover:translate-y-1 transition-transform" />
-                </Button>
-                <Button
+                  asChild
                   variant="outline"
                   className="flex items-center justify-between gap-4 h-auto py-5 px-5 group hover:bg-white/20 col-span-1 sm:col-span-2"
                 >
-                  <span className="font-['Overpass',sans-serif] font-bold">
-                    Pako Kurumsal Kimlik Klavuzu (PDF)
-                  </span>
-                  <LucideFileDown className="size-5 text-[var(--color-secondary)] group-hover:translate-y-1 transition-transform" />
+                  <a
+                    href="/docs/Pako Kimlik Rehberi.pdf"
+                    download="Pako_Kimlik_Rehberi.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="font-['Overpass',sans-serif] font-bold group-hover:text-white dark:group-hover:text-white transition-colors">
+                      {t('press.buttons.guidelines')}
+                    </span>
+                    <LucideFileDown className="size-5 text-[var(--color-secondary)] group-hover:translate-y-1 transition-transform" />
+                  </a>
                 </Button>
               </div>
             </div>

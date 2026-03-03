@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 
-import heroVideo from '../../../assets/0302-2.webm';
+import heroVideo from '../../../assets/03034.webm';
 import heroImage from '@assets/images/hero_image.png';
 
 import { Button } from '../ui/button';
@@ -14,7 +14,7 @@ export function HeroSection() {
 
   const slides = [
     { type: 'video', src: heroVideo, duration: 20000 },
-    { type: 'image', src: heroImage, duration: 10000 }
+    { type: 'image', src: heroImage, duration: 10000 },
   ];
 
   useEffect(() => {
@@ -34,8 +34,9 @@ export function HeroSection() {
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none bg-black">
         {slides.map((slide, index) => {
           const isActive = index === currentSlide;
-          const slideClass = `absolute inset-0 size-full object-cover transition-opacity duration-1000 ${isActive ? 'opacity-100' : 'opacity-0'
-            }`;
+          const slideClass = `absolute inset-0 size-full object-cover transition-opacity duration-1000 ${
+            isActive ? 'opacity-100' : 'opacity-0'
+          }`;
 
           if (slide.type === 'video') {
             return (
@@ -50,14 +51,7 @@ export function HeroSection() {
               />
             );
           }
-          return (
-            <img
-              key={index}
-              className={slideClass}
-              src={slide.src}
-              alt=""
-            />
-          );
+          return <img key={index} className={slideClass} src={slide.src} alt="" />;
         })}
 
         {/* Dotted overlay */}

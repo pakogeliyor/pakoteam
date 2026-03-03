@@ -99,6 +99,11 @@
       "news": "Haber",
       "video": "Video",
       "documentary": "Belgesel"
+    },
+    "buttons": {
+      "logo": "Logo Paketi (SVG/PNG)",
+      "photos": "Fotoğraf Arşivi",
+      "guidelines": "Pako Kurumsal Kimlik Klavuzu (PDF)"
     }
   },
   "help": {
@@ -317,7 +322,7 @@
   "newsletter": {
     "title": "Bizden Haber Al",
     "subtitle": "En son gelişmelerden haberdar ol",
-    "placeholder": "mail@pako.com",
+    "placeholder": "sizin e-mailiniz",
     "cta": "katıl",
     "sending": "Gönderiliyor...",
     "success": "✓ Başarıyla kaydedildi! Bültene hoş geldiniz.",

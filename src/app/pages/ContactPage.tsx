@@ -13,7 +13,6 @@ export function ContactPage() {
   const [formData, setFormData] = useState({
     name: '',
     subject: '',
-    topic: '',
     email: '',
     phone: '',
     message: '',
@@ -49,8 +48,15 @@ export function ContactPage() {
     }
 
     try {
-      // Simulate API call - replace with actual backend integration
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+      // Submit to Netlify Forms
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          ...formData,
+        }).toString(),
+      });
 
       setIsSubmitting(false);
       setSubmitStatus('success');
@@ -60,7 +66,6 @@ export function ContactPage() {
         setFormData({
           name: '',
           subject: '',
-          topic: '',
           email: '',
           phone: '',
           message: '',
@@ -126,25 +131,6 @@ export function ContactPage() {
               id="subject"
               name="subject"
               value={formData.subject}
-              onChange={handleChange}
-              required
-              className="h-[45px] rounded-lg border border-[var(--color-border)] dark:border-gray-700 bg-[var(--color-gray-100)] dark:bg-gray-700 px-3 text-black dark:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] dark:focus:ring-[var(--color-secondary)]"
-            />
-          </div>
-
-          {/* Topic */}
-          <div className="flex flex-col gap-1">
-            <label
-              htmlFor="topic"
-              className="font-['Overpass',sans-serif] font-bold text-2xl text-black dark:text-white"
-            >
-              {t('contact.topic')}
-            </label>
-            <input
-              type="text"
-              id="topic"
-              name="topic"
-              value={formData.topic}
               onChange={handleChange}
               required
               className="h-[45px] rounded-lg border border-[var(--color-border)] dark:border-gray-700 bg-[var(--color-gray-100)] dark:bg-gray-700 px-3 text-black dark:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] dark:focus:ring-[var(--color-secondary)]"
@@ -248,10 +234,10 @@ export function ContactPage() {
               />
             </svg>
             <a
-              href="mailto:patronsuzlarkoop@gmail.com"
+              href="mailto:bilgi@pako.team"
               className="font-['Overpass',sans-serif] font-light text-[var(--text-3xl)] text-[var(--color-primary)] dark:text-[var(--color-secondary)] hover:underline"
             >
-              patronsuzlarkoop@gmail.com
+              bilgi@pako.team
             </a>
           </div>
 

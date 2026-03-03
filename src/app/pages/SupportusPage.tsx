@@ -45,7 +45,11 @@ export function SupportusPage() {
           size="lg"
           className="rounded-lg px-8 py-6 font-['Overpass',sans-serif] text-xl font-bold tracking-tight shadow-md transition-all hover:scale-105 active:scale-[0.98]"
         >
-          <a href="https://github.com/pako" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Yasin4261/i-need-courier"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             {t('support.github.cta')}
           </a>
         </Button>

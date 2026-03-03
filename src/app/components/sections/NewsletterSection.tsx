@@ -23,8 +23,16 @@ export function NewsletterSection() {
 
     try {
       setStatus('loading');
-      // Simulate API call - replace with actual backend integration
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+
+      // Submit to Netlify Forms
+      await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'newsletter',
+          email,
+        }).toString(),
+      });
 
       setStatus('success');
       setEmail('');

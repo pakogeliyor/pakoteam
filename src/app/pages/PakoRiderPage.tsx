@@ -72,14 +72,30 @@ export function PakoRiderPage() {
         <p className="max-w-2xl font-['Overpass',sans-serif] text-base font-light leading-7 tracking-tight text-black dark:text-white md:text-xl">
           {t('pakoRider.joinDesc')}
         </p>
-        <Button
-          asChild
-          variant="primary"
-          size="lg"
-          className="rounded-lg px-6 py-6 font-['Overpass',sans-serif] text-xl font-medium tracking-tight h-auto transition-all active:scale-[0.98]"
-        >
-          <Link to="/topluluk">{t('pakoRider.joinCommunity')}</Link>
-        </Button>
+        <div className="flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <Button
+            asChild
+            variant="primary"
+            size="lg"
+            className="rounded-lg px-6 py-6 font-['Overpass',sans-serif] text-xl font-medium tracking-tight h-auto transition-all active:scale-[0.98]"
+          >
+            <Link to="/topluluk">{t('pakoRider.joinCommunity')}</Link>
+          </Button>
+          <Button
+            asChild
+            variant="primary"
+            size="lg"
+            className="rounded-lg px-6 py-6 font-['Overpass',sans-serif] text-xl font-medium tracking-tight h-auto transition-all active:scale-[0.98]"
+          >
+            <a
+              href="https://github.com/Yasin4261/i-need-courier"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </Button>
+        </div>
       </section>
 
       {/* Community Invitation Section */}
