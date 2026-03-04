@@ -72,13 +72,13 @@ export function Footer() {
     {
       name: 'Instagram',
       icon: iconInstagram,
-      href: 'https://instagram.com',
+      href: 'https://www.instagram.com/pakogeliyor',
       ariaLabel: 'Instagram',
     },
     {
       name: 'YouTube',
       icon: iconYoutube,
-      href: 'https://youtube.com',
+      href: 'https://www.youtube.com/@pakogeliyor',
       ariaLabel: 'YouTube',
     },
     {

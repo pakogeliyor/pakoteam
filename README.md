@@ -2,6 +2,13 @@
 
 Pako, PKOOP (Patronsuzlar Kooperatifi) çatısı altında geliştirilen, dayanışma ekonomisini ve ekolojik ulaşımı odağına alan bir teslimat ekosistemidir.
 
+---
+
+### 🌍 English Overview
+Pako is a delivery ecosystem developed under the umbrella of PKOOP (Cownerless Cooperative), focusing on the solidarity economy and ecological transportation. Unlike traditional platforms, Pako operates as a "bossless" structure where bicycle couriers are partners and independent service providers.
+
+---
+
 ## 🚲 Vizyonumuz
 
 Pako, geleneksel kurye platformlarının aksine "patronsuz" bir yapı ile çalışır. Bisikletli kuryeleri birer işçi olarak değil, platformun ortağı ve bağımsız hizmet sağlayıcısı olarak konumlandırır.
@@ -19,7 +26,15 @@ Bu web sitesi, yüksek performanslı ve modern bir React uygulamasıdır:
 - **Styling:** Tailwind CSS (Modern Vanilla CSS Variables with Dark Mode support)
 - **Routing:** React Router 7
 - **Language:** TypeScript
-- **i18n:** Özel çoklu dil desteği (TR/EN)
+- **i18n:** `react-i18next` ile çoklu dil desteği (TR/EN)
+
+## 🚀 Sosyal Medya & Topluluk
+
+Bizi takip edin ve topluluğumuza katılın:
+
+- **Instagram:** [@pakogeliyor](https://www.instagram.com/pakogeliyor)
+- **YouTube:** [@pakogeliyor](https://www.youtube.com/@pakogeliyor)
+- **GitHub (App):** [i-need-courier](https://github.com/Yasin4261/i-need-courier)
 
 ## 🚀 Başlarken
 
@@ -54,7 +69,7 @@ Proje mimarisi hakkında detaylı bilgi için [ARCHITECTURE.md](./ARCHITECTURE.m
 - `src/app/components`: Atomik ve organize edilmiş UI bileşenleri.
 - `src/app/pages`: Sayfa seviyesinde yönlendirme bileşenleri.
 - `src/app/utils`: Çeviri ve yardımcı araçlar.
-- `assets/`: Görseller, SVG'ler ve statik dosyalar.
+- `src/assets/`: Görseller, SVG'ler ve statik dosyalar.
 - `src/styles/`: Global temalandırma ve CSS değişkenleri.
 
 ---

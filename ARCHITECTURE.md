@@ -43,21 +43,22 @@ All colors and spacing use CSS variables defined in `/src/styles/theme.css`:
 
 ### 3. Internationalization (i18n)
 
-Simple i18n implementation following next-intl pattern:
+The project uses `react-i18next` for robust internationalization:
 
-**Location:** `/src/app/utils/translations.ts`
+**Location:** `/src/i18n/config.ts` (Configuration), `/public/locales/` (Translation files)
 
 **Usage:**
 ```jsx
-import { t } from '../utils/translations';
+import { useTranslation } from 'react-i18next';
 
+const { t } = useTranslation();
 <h1>{t('header.about')}</h1>
 ```
 
 **Pattern:**
 - Keys use dot notation: `section.key`
 - Supports multiple languages (tr, en)
-- Easy to extend with more languages
+- JSON-based translation files for easy management
 
 ### 4. Semantic HTML
 
@@ -267,13 +268,12 @@ className="transition-all hover:opacity-90 active:scale-98 disabled:opacity-50"
 
 ## Future Enhancements
 
-1. **i18n**: Replace simple implementation with `next-intl` or `react-i18next`
-2. **CMS Integration**: Connect blog to headless CMS
-3. **API Integration**: Real form submissions
-4. **Image Optimization**: Use `next/image` equivalent
-5. **SEO**: Meta tags, structured data
-6. **Analytics**: Event tracking
-7. **Testing**: Unit tests, E2E tests
+1. **CMS Integration**: Connect blog to headless CMS
+2. **API Integration**: Real form submissions
+3. **Image Optimization**: Use `next/image` equivalent
+4. **SEO**: Meta tags, structured data
+5. **Analytics**: Event tracking
+6. **Testing**: Unit tests, E2E tests
 
 ## Development Guidelines
 
