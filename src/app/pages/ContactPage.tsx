@@ -234,10 +234,10 @@ export function ContactPage() {
               />
             </svg>
             <a
-              href="mailto:bilgi@pako.team"
+              href="mailto:pakogeliyor@gmail.com"
               className="font-['Overpass',sans-serif] font-light text-[var(--text-3xl)] text-[var(--color-primary)] dark:text-[var(--color-secondary)] hover:underline"
             >
-              bilgi@pako.team
+              pakogeliyor@gmail.com
             </a>
           </div>
 
