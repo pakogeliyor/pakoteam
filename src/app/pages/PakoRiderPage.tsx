@@ -4,6 +4,7 @@ import pakoRiderBadge from '@assets/svg/pako_rider_badge.svg';
 import { TextHeroSection } from '../components/sections/TextHeroSection';
 import { Button } from '../components/ui/button';
 import InteractivePakoComponent from '../components/InteractivePakoComponent';
+import { SurveyPopup } from '../components/SurveyPopup';
 
 export function PakoRiderPage() {
   const { t } = useTranslation();
@@ -111,6 +112,13 @@ export function PakoRiderPage() {
           </div>
         </div>
       </section>
+
+      <SurveyPopup
+        title="Ankete Katıl"
+        description="Projemiz ve bisikletli kuryelik hakkında hazırladığımız ankete katılarak oryantasyon sürecini başlatabilirsin."
+        buttonLabel="Katıl"
+        buttonLink="https://tally.so/r/VLZR6g"
+      />
     </div>
   );
 }

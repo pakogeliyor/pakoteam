@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { PurpleCard } from '../components/sections';
 import { Button } from '../components/ui/button';
+import { SurveyPopup } from '../components/SurveyPopup';
 
 export function BusinessesPage() {
   const { t, i18n } = useTranslation();
@@ -106,18 +107,20 @@ export function BusinessesPage() {
         )}
       </section>
 
-      {/* Section 5: İş birliği prensipleri */}
+      {/* Section 5: Birlikte Büyüyoruz */}
       <section className="flex w-full flex-col items-center px-4 py-8 pb-20 md:px-8">
         <div className="flex w-full max-w-[var(--content-max-width)] flex-col gap-10 lg:px-16">
           <h2 className="font-['Overpass_Mono',sans-serif] text-2xl font-semibold text-[var(--color-primary)] dark:text-[var(--color-secondary)] md:text-3xl">
-            {t('businesses.principles.title')}
+            Birlikte Büyüyoruz
           </h2>
           <div className="flex flex-col gap-6">
             <p className="font-['Overpass',sans-serif] text-base font-light leading-7 tracking-tight text-black dark:text-white md:text-xl">
-              {t('businesses.principles.description1')}
-            </p>
-            <p className="font-['Overpass',sans-serif] text-base font-light leading-7 tracking-tight text-black dark:text-white md:text-xl">
-              {t('businesses.principles.description2')}
+              Pako, hiyerarşiden uzak, emeğe ve dayanışmaya dayalı, çevre dostu bir yeni nesil
+              teslimat ağıdır. Türkiye’nin köklü yardımlaşma kültüründen beslenen bu modelde,
+              işletmelerden beklenen sadece bir hizmet almaları değil; bisikletli kuryelerin emeğine
+              saygı duyan, güvene dayalı ve sabırlı bir iş ortaklığının parçası olmalarıdır. Siz de
+              insan odaklı ve sürdürülebilir bu ilkeli hareketin bir parçası olmak isterseniz, Pako
+              işletmeleri arasındaki yerinizi alabilirsiniz.
             </p>
           </div>
         </div>
@@ -128,6 +131,13 @@ export function BusinessesPage() {
         description={t('businesses.contactCard.description')}
         ctaLabel={t('businesses.contactCard.cta')}
         ctaLink="/iletisim"
+      />
+
+      <SurveyPopup
+        title="Ankete Katıl"
+        description="Restoran kuryesi ihtiyacınız varsa pilot uygulama anketine katılın. Ekibimiz en kısa sürede işletmenize dönüş sağlayacaktır."
+        buttonLabel="Katıl"
+        buttonLink="https://tally.so/r/2Ek8jb"
       />
     </div>
   );
