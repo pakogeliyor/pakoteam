@@ -39,7 +39,7 @@
       {
         "title": "Kısa Pako tarihi",
         "excerpt": "bir fikir olarak Pako'nun nasıl ortaya çıktığı ve geliştiği hakkında...",
-        "content": "<p>Pako, Kadıköy'ün dar sokaklarında bisikletin özgürlüğüne inanan bir avuç insanın hayali olarak başladı. 2019'un başlarında, paket servis dünyasındaki adaletsizliklere bir cevap olarak filizlendi.</p><p>İlk günden beri amacımız sadece bir paket taşımak değil, mahallemizdeki dayanışmayı canlı tutmaktı. Bugün ise Pako, yüzlerce bisikletliyi ve onlarca işletmeyi bir araya getiren organik bir ekosisteme dönüştü.</p>"
+        "content": "<p>Pako, Kadıköy'ün dar sokaklarında bisikletin özgürlüğüne inanan bir avuç insanın hayali olarak başladı. 2020'un başlarında, paket servis dünyasındaki adaletsizliklere bir cevap olarak filizlendi.</p><p>İlk günden beri amacımız sadece bir paket taşımak değil, mahallemizdeki dayanışmayı canlı tutmaktı. Bugün ise Pako, yüzlerce bisikletliyi ve onlarca işletmeyi bir araya getiren organik bir ekosisteme dönüştü.</p>"
       },
       {
         "title": "Platformlar ile çalışamayan işletme Pako ile komisyonsuz teslimat...",
@@ -169,13 +169,13 @@
       "title": "İşletmeler",
       "description1": "Emeğiyle mekanlara ruh kazandıran, yemekleriyle ilham kaynağı olan işletmeler Pako için en öncelikli kitleyi oluşturur çünkü ‘yerellik’ kavramını ilkelerinin en başına koyan Pako kültür olarak mahallenin bisikletlilerinden oluşan yerel bir topluluktur. Amacımız bisikletin hızını, kooperatifin adaletini ve teknolojinin kolaylığını birleştirerek yerel esnafa ve kuryeye adil ve şeffaf bir çalışma modeli sunmaktır.",
       "description2": "Merkeziyetsiz sistemimiz kuryelik modelini dönüştürüyor ve bu modeli her koşulda her ilçede uygulanabilir kılma yolunda gelişiyor. Pako ile tanışıp destek olarak ilkeli bir çalışma modelini geliştirmemize yardımcı olabilirsiniz.",
-      "description3": "2019'da pandemi döneminden beri sahada edindiği tecrübe ile bir çok kuryelik ağına eğitim veren Pako, geliştirdiği mobil uygulama Pako Rider ile merkeziyetsiz ve bağımsız restoran kuryeliğini teknolojik olarak mümkün kılmıştır."
+      "description3": "2020'de pandemi döneminden beri sahada edindiği tecrübe ile bir çok kuryelik ağına eğitim veren Pako, geliştirdiği mobil uygulama Pako Rider ile merkeziyetsiz ve bağımsız restoran kuryeliğini teknolojik olarak mümkün kılmıştır."
     },
     "heroStatement": "Komisyon canavarlarına teslim olma. Mahallenin adil, sıfır karbonlu ve %100 yerel teslimat ağına katıl.",
     "localNetwork": {
       "title": "Yerel ağa katılın",
       "description1": "Pako Türkiye'nin dayanışmacı köklerinden, yerellikten ve organiklikten beslenir. Haksız iş düzeninin yükselişe geçtiği bir dönemde değer üreten ve eşsiz olan siz kıymetli esnaflara, global zincirin dışında kalan yerel üreticilere faydalı bir alternatif sunar. ‘Farklı bir kuryelik modeli mümkün mü?’ sorusunu sorarak bisikletin bu modelin taşıyıcısı olduğuna inanır.",
-      "description2": "2019'da pandemi döneminden beri sahada edindiği tecrübe ile bir çok kuryelik ağına eğitim veren Pako, geliştirdiği mobil uygulama Pako Rider ile merkeziyetsiz ve bağımsız restoran kuryeliğini teknolojik olarak mümkün kılmıştır. Pako komisyonsuz restoran kuryeliği yapar, Pako Rider bölgedeki teslimat işlerini listeleyen bir ‘havuz’ işlevi görür. Hizmet verdiğiniz bölgede bisikletli Pako ekibinden destek alarak adil ve şeffaf bir model sergileyen dayanışmaya katkı sağlamış olursunuz."
+      "description2": "2020'da pandemi döneminden beri sahada edindiği tecrübe ile bir çok kuryelik ağına eğitim veren Pako, geliştirdiği mobil uygulama Pako Rider ile merkeziyetsiz ve bağımsız restoran kuryeliğini teknolojik olarak mümkün kılmıştır. Pako komisyonsuz restoran kuryeliği yapar, Pako Rider bölgedeki teslimat işlerini listeleyen bir ‘havuz’ işlevi görür. Hizmet verdiğiniz bölgede bisikletli Pako ekibinden destek alarak adil ve şeffaf bir model sergileyen dayanışmaya katkı sağlamış olursunuz."
     },
     "meetPako": {
       "title": "Pako ile tanış",
@@ -191,6 +191,11 @@
     "contactCard": {
       "description": "Daha fazla bilgi almak için bizimle iletişime geçin veya irtibat bilginizi paylaşın, bir ekip arkadaşımız en yakın sürede size ulaşacaktır.",
       "cta": "iletişim"
+    },
+    "surveyPopup": {
+      "title": "Ankete Katıl",
+      "description": "Restoran kuryesi ihtiyacınız varsa pilot uygulama anketine katılın. Ekibimiz en kısa sürede işletmenize dönüş sağlayacaktır.",
+      "buttonLabel": "Katıl"
     }
   },
   "pakoRider": {
@@ -205,7 +210,12 @@
     "interfaceDescription1": "Kolektif bilinçle bisikletliler tarafından bisikletliler için geliştirilen Pako Rider yazılımı açık kaynaklıdır; herkes tarafından incelenebilir ve geliştirilebilir. Veri akışı gizli değilir. Bağımsız teknolojisi kooperatifin ortak değeridir.",
     "interfaceDescription2": "Pako Rider’ın yeni nesil yazılım anlayışı hızlı bir iş akışı oluşturur, organik gelişmiş algoritması ile havuzdaki işleri sahadaki kuryelere en makul şekilde tavsiye eder ve akıllı rotalar oluşturur. Ortak bir görev üzerinde çalışan kişilerin hedeflerine ulaşmalarına yardımcı olmak için tasarlanmıştır.",
     "communityInvitation1": "Pako Rider ile başlattığımız harekete katıl, felsefemiz, ilkelerimiz hakkında daha fazla bilgi almak ve kullanım prensiplerini incelemek için topluluğa dahil ol. Amacımız Pako Rider’ın kullanımını herkes için mümkün kılmak ve kolaylaştırmak.",
-    "communityInvitation2": "Saha oryantasyonu, Pako topluluk sistemi, saha koordinasyonunu ve operasyonu gibi konular hakkında konu başlıklarını ve uygulama hakkında aradığın tüm rehberleri orada bulacaksın. Katılımın, Pako Rider’ın geliştirilmesi için çok değerli, bisikletli adil bir teslimat sistemini birlikte geliştirmek isteyen herkesi topluluk sayfamıza üye olmaya davet ediyoruz."
+    "communityInvitation2": "Saha oryantasyonu, Pako topluluk sistemi, saha koordinasyonunu ve operasyonu gibi konular hakkında konu başlıklarını ve uygulama hakkında aradığın tüm rehberleri orada bulacaksın. Katılımın, Pako Rider’ın geliştirilmesi için çok değerli, bisikletli adil bir teslimat sistemini birlikte geliştirmek isteyen herkesi topluluk sayfamıza üye olmaya davet ediyoruz.",
+    "surveyPopup": {
+      "title": "Ankete Katıl",
+      "description": "Projemiz ve bisikletli kuryelik hakkında hazırladığımız ankete katılarak oryantasyon sürecini başlatabilirsin.",
+      "buttonLabel": "Katıl"
+    }
   },
   "about": {
     "title": "Pako nedir?",
@@ -255,7 +265,7 @@
     },
     "whatIsPako": {
       "title": "Pako nedir?",
-      "description": "Pako, Patronsuz Kuryeler'den doğan Kadıköy merkezli bir restoran kuryeliği projesidir. 2019 yılında pandemi döneminde yerel esnafı, üreticiyi desteklemek amacıyla kâr amacı gütmeden oluşmuştur.",
+      "description": "Pako, Patronsuz Kuryeler'den doğan Kadıköy merkezli bir restoran kuryeliği projesidir. 2020 yılında pandemi döneminde yerel esnafı, üreticiyi desteklemek amacıyla kâr amacı gütmeden oluşmuştur.",
       "cta": "devamı"
     },
     "pakoRider": {

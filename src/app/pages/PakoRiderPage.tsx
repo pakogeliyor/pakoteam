@@ -114,10 +114,10 @@ export function PakoRiderPage() {
       </section>
 
       <SurveyPopup
-        title="Ankete Katıl"
-        description="Projemiz ve bisikletli kuryelik hakkında hazırladığımız ankete katılarak oryantasyon sürecini başlatabilirsin."
-        buttonLabel="Katıl"
-        buttonLink="https://tally.so/r/VLZR6g"
+        title={t('pakoRider.surveyPopup.title')}
+        description={t('pakoRider.surveyPopup.description')}
+        buttonLabel={t('pakoRider.surveyPopup.buttonLabel')}
+        buttonLink="https://forms.gle/jbMfp9XpPG2k8rtg9"
       />
     </div>
   );

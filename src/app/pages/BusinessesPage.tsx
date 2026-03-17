@@ -134,10 +134,10 @@ export function BusinessesPage() {
       />
 
       <SurveyPopup
-        title="Ankete Katıl"
-        description="Restoran kuryesi ihtiyacınız varsa pilot uygulama anketine katılın. Ekibimiz en kısa sürede işletmenize dönüş sağlayacaktır."
-        buttonLabel="Katıl"
-        buttonLink="https://tally.so/r/2Ek8jb"
+        title={t('businesses.surveyPopup.title')}
+        description={t('businesses.surveyPopup.description')}
+        buttonLabel={t('businesses.surveyPopup.buttonLabel')}
+        buttonLink="https://forms.gle/mbrH9oZCfQhM3CR59"
       />
     </div>
   );
