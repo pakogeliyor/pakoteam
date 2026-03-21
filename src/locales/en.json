@@ -20,7 +20,9 @@
     "cookies": "Cookie Policy",
     "terms": "Usage and Ethical Principles",
     "contact": "Contact",
-    "press": "Press"
+    "press": "Press",
+    "communityRules": "Community Rules",
+    "communityTerms": "Community Terms"
   },
   "blog": {
     "title": "Blog",
@@ -388,10 +390,12 @@
       },
       {
         "title": "2. Which Data Do We Process and Why?",
-        "content": "We process the minimum data required for the Pako ecosystem to function:",
+        "content": "We process the minimum data required for the Pako ecosystem to function. When you use the digital channels of our ecosystem (our main website and community forum), we collect the following data:",
         "list": [
-          "Identity and Contact: For registration processes and operational communication (First name-last name, e-mail, phone).",
-          "Location Data: Only during an active delivery process, for route optimization and the functioning of \"Pako Rider\" assistance. Location tracking ends when the delivery ends.",
+          "Identity and Contact: Contact information left when you fill out forms as a business or supporter, for registration processes and communication (First name-last name, e-mail, message content, phone).",
+          "Community Forum Data: Username, e-mail, password and optional biography/photo created during registration, as well as your messages on the forum.",
+          "Community Analytics Data: Data such as IP address and browser information are processed non-permanently to ensure platform security (preventing spam, etc.).",
+          "Location Data: Only for route optimization during active delivery in the Pako Rider app.",
           "Transaction Security: Technical records necessary to prevent system misuse and protect our autonomous structure."
         ]
       },
@@ -443,5 +447,100 @@
       }
     ],
     "footer": "By using this platform, you declare that you will remain faithful to the rules of solidarity. Welcome!"
+  },
+  "communityRules": {
+    "title": "Pako Community Rules",
+    "description": "Welcome to the communication center of the Pako ecosystem. This is not just a support forum, but a massive solidarity network formed by open source code, autopilot couriers, and local tradesmen. To keep Pako's philosophical and social mission alive and provide a healthy communication environment for everyone, we adopt the following rules.",
+    "sections": [
+      {
+        "title": "1. Bossless and Non-Hierarchical Communication",
+        "content": "There is no boss-worker, supervisor-officer, master-apprentice relationship here. You can be a courier, tradesman, developer or a supporter; everyone is equal and part of the same horizontal network. Mutual respect and \"horizontal communication between equals\" is our most basic rule."
+      },
+      {
+        "title": "2. Constructive and \"Maker\" Language Usage",
+        "content": "We want a language that does not only complain about the problem but partners in the solution. When writing a problem or platform error you encounter:",
+        "list": [
+          "Provide constructive, not destructive criticism.",
+          "If possible, include your proposed solution or your contribution to the open source repo.",
+          "Remember that we are a voluntary community."
+        ]
+      },
+      {
+        "title": "3. Respect and Empathy: Non-violence",
+        "list": [
+          "Zero Tolerance: Hate speech, discrimination, bullying and harassment based on language, religion, race, gender, sexual orientation or any demographic feature are strictly prohibited and are grounds for immediate removal from the platform.",
+          "The difficulties faced by couriers and businesses in the field are approached with empathy. Instead of mutual blame, the systemic source of the problem is discussed."
+        ]
+      },
+      {
+        "title": "4. Transparency, But at the Limit of \"Personal Privacy\"",
+        "content": "Although we advocate \"Glass Transparency\" in system algorithms as Pako, we respect the privacy of personal data:",
+        "list": [
+          "It is forbidden to share personal data (real names, addresses, phone numbers or order/customer details) on the public forum.",
+          "When discussing a specific delivery/order problem, share it by blacking out/hiding sensitive data that would expose people and institutions."
+        ]
+      },
+      {
+        "title": "5. Spam, Advertising and Off-Platform Topics",
+        "list": [
+          "This is a discussion platform belonging to the Pako ecosystem. Commercial advertisements, chain messages and spam posts that are not related to Pako's solidarity vision or platform cooperativism will be deleted.",
+          "Avoid opening the same question or topic in multiple categories (crossposting)."
+        ]
+      },
+      {
+        "title": "6. Correct Category and Clear Titles",
+        "content": "To make it easier for search engines and those looking for information:",
+        "list": [
+          "Choose the most relevant category for your topic. Keep your titles descriptive. Instead of \"Urgent Help\", \"Look at this\", use clear titles like \"App closes in background (Android)\"."
+        ]
+      },
+      {
+        "title": "Autonomous Moderation",
+        "content": "This space is managed by the Pako community. Instead of tagging administrators or waiting for an official for rule violations you encounter, you can draw the attention of moderators by using the \"Report (Flag)\" system. The decisions of the moderators taking initiative on behalf of the community in necessary situations are final."
+      }
+    ]
+  },
+  "communityTerms": {
+    "title": "Pako Community Platform Usage Agreement",
+    "description": "Welcome to the Pako community! This agreement defines the basic rules and rights you must follow while using this forum/platform, which is part of Pako's decentralized, bossless and transparent ecosystem. By using the platform, you are deemed to have accepted this agreement.",
+    "sections": [
+      {
+        "title": "1. Purpose of the Platform",
+        "content": "This platform is a communication center established to grow open source culture and Pako values, where couriers, businesses, software developers and all supporters believing in local solidarity come together. This is not a hierarchical customer service channel, but a horizontal and peer-to-peer solidarity autonomy."
+      },
+      {
+        "title": "2. User Obligations and Accounts",
+        "list": [
+          "Reality and Honesty: It is a requirement of Pako's \"Transparency\" principle that the information you provide when creating your account reflects the truth.",
+          "Account Security: You are responsible for the security of your account and password. You accept that you are responsible for all transactions made through your account.",
+          "Single Account Usage: Opening multiple (spam/bot) accounts is prohibited in order to prevent community manipulation."
+        ]
+      },
+      {
+        "title": "3. Content and Intellectual Property",
+        "list": [
+          "Open Source Spirit: Any suggestions, code snippets, feedback and ideas you share on the platform are considered as contributions to Pako's open source and collective pool (unless stated otherwise).",
+          "User Content Responsibility: You are responsible for the messages, images and all other content you share on the platform. Pako does not assume legal and moral responsibility for the content shared by users.",
+          "Unauthorized Data Scraping is Prohibited: User data and discussions on the platform cannot be scraped for commercial purposes, copied or sold without Pako's explicit consent."
+        ]
+      },
+      {
+        "title": "4. Platform Operation and Violations",
+        "list": [
+          "It is strictly forbidden to try to damage the technical infrastructure of the system, distribute malicious software or sabotage the experience of other users, and is grounds for removal from the account.",
+          "Platform autonomous managers and community moderators have the right to edit, move or delete content that violates the usage agreement or does not comply with Pako principles (Manifesto).",
+          "In case of rule violations, sanctions such as warning, temporary suspension or permanent ban from the platform can be applied."
+        ]
+      },
+      {
+        "title": "5. Disclaimer",
+        "content": "Pako presents the software, platform and services \"as is\". We do not guarantee that the platform will always be uninterrupted, error-free or 100% secure. Development processes in our open source project are carried out with community effort. Pako autonomy does not accept legal responsibility for possible data losses or system interruptions."
+      },
+      {
+        "title": "6. Changes",
+        "content": "This usage agreement can be changed with autonomous decisions in line with the evolution of the platform and the Pako ecosystem. Important changes are announced to the community."
+      }
+    ],
+    "footer": "Remember that we can make this system better with your contributions. Thank you for empowering open source, autonomy and fair technology!"
   }
 }

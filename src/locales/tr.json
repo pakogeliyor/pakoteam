@@ -20,7 +20,9 @@
     "cookies": "Çerez Politikası",
     "terms": "Kullanım ve Etik İlkeleri",
     "contact": "İletişim",
-    "press": "Basın"
+    "press": "Basın",
+    "communityRules": "Topluluk Kuralları",
+    "communityTerms": "Topluluk Sözleşmesi"
   },
   "blog": {
     "title": "Blog",
@@ -394,10 +396,12 @@
       },
       {
         "title": "2. Hangi Verileri, Neden İşliyoruz?",
-        "content": "Pako ekosisteminin çalışması için gereken minimum veriyi işleriz:",
+        "content": "Pako ekosisteminin çalışması için gereken minimum veriyi işleriz. Ekosistemimizin dijital kanallarını (ana web sitemiz ve topluluk formu) kullandığınızda aşağıdaki verileri topluyoruz:",
         "list": [
-          "Kimlik ve İletişim: Kayıt süreçleri ve operasyonel iletişim için (Ad-soyad, e-posta, telefon).",
-          "Konum Verisi: Sadece aktif bir teslimat süreci sırasında, rotanın optimize edilmesi ve \"Pako Rider\" asistanlığının çalışabilmesi için. Teslimat bittiğinde konum takibi de biter.",
+          "Kimlik ve İletişim: İşletme veya destekçi olarak formları doldurduğunuzda bıraktığınız iletişim bilgileri, kayıt süreçleri ve iletişim için (Ad-soyad, e-posta, mesaj içeriği, telefon).",
+          "Topluluk Forumu Verileri: Kayıt olurken oluşturulan kullanıcı adı, e-posta, şifre ve isteğe bağlı biyografi/fotoğraf, ayrıca forumdaki mesajlarınız.",
+          "Topluluk Analitik Verileri: IP adresi, tarayıcı bilgisi gibi veriler platform güvenliğini sağlamak (spam önlemek vb.) amacıyla kalıcı olmamak şartıyla işlenir.",
+          "Konum Verisi: Sadece Pako Rider uygulamasında aktif teslimat sırasında rotanın optimize edilmesi için.",
           "İşlem Güvenliği: Sistemin kötüye kullanımını önlemek ve otonom yapımızı korumak için gerekli teknik kayıtlar."
         ]
       },
@@ -448,5 +452,100 @@
       }
     ],
     "footer": "Bu platformu kullanarak dayanışmanın kurallarına sadık kalacağınızı beyan etmiş olursunuz. Hoş geldiniz!"
+  },
+  "communityRules": {
+    "title": "Pako Topluluk Kuralları",
+    "description": "Pako ekosisteminin iletişim merkezine hoş geldin. Burası sadece bir destek forumu değil, açık kaynak kodun, otopilot kuryelerin ve yerel esnafın oluşturduğu devasa bir dayanışma ağıdır. Pako'nun felsefik ve sosyal misyonunu yaşatmak ve herkes için sağlıklı bir iletişim ortamı sağlamak için aşağıdaki kuralları benimsiyoruz.",
+    "sections": [
+      {
+        "title": "1. Patronsuz ve Hiyerarşisiz İletişim",
+        "content": "Burada patron işçi, amir memur, usta çırak ilişkisi yoktur. Kurye, esnaf, yazılımcı (developer) veya bir destekçi olabilirsiniz; herkes eşittir ve aynı yatay ağın bir parçasıdır. Karşılıklı saygı ve \"eşitler arası yatay iletişim\" en temel kuralımızdır."
+      },
+      {
+        "title": "2. Yapıcı ve \"Maker\" Dil Kullanımı",
+        "content": "Sadece sorunu şikâyet eden değil, çözüme ortak olan bir dil istiyoruz. Karşılaştığınız bir sorunu veya platform hatasını yazarken:",
+        "list": [
+          "Yıkıcı değil yapıcı eleştiriler getirin.",
+          "Mümkünse çözüm önerinizi veya açık kaynak reposuna yapabileceğiniz katkıyı da ekleyin.",
+          "Gönüllü bir topluluk olduğumuzu unutmayın."
+        ]
+      },
+      {
+        "title": "3. Saygı ve Empati: Şiddetsizlik",
+        "list": [
+          "Sıfır Tolerans: Dil, din, ırk, cinsiyet, cinsel yönelim veya herhangi bir demografik özellik üzerinden nefret söylemi, ayrımcılık, zorbalık ve taciz kesinlikle yasaktır ve doğrudan platformdan uzaklaştırma sebebidir.",
+          "Kuryelerin ve işletmelerin sahadaki zorluklarına empati ile yaklaşılır. Karşılıklı suçlama yerine sorunun sistemsel kaynağı tartışılır."
+        ]
+      },
+      {
+        "title": "4. Şeffaflık, Ancak \"Kişisel Gizlilik\" Sınırında",
+        "content": "Pako olarak sistem algoritmalarında \"Cam Şeffaflığını\" savunsak da, kişisel verilerin gizliliğine saygı duyarız:",
+        "list": [
+          "Kişisel verileri (gerçek isimler, adresler, telefon numaraları veya sipariş/müşteri detayları) herkese açık forumda paylaşmak yasaktır.",
+          "Spesifik bir teslimat/sipariş sorununu tartışırken, kişi ve kurumları ifşa edecek hassas verileri karartarak/gizleyerek paylaşın."
+        ]
+      },
+      {
+        "title": "5. Spam, Reklam ve Platform Dışı Konular",
+        "list": [
+          "Burası Pako ekosistemine ait bir tartışma platformudur. Pako'nun dayanışma vizyonuyla veya platform kooperatifçiliği ile ilgisi olmayan ticari reklamlar, zincir mesajlar ve spam gönderiler silinecektir.",
+          "Aynı soruyu veya konuyu birden fazla kategoriye (crossposting) açmaktan kaçının."
+        ]
+      },
+      {
+        "title": "6. Doğru Kategori ve Net Başlıklar",
+        "content": "Arama motorlarının ve bilgiyi arayanların işini kolaylaştırmak için:",
+        "list": [
+          "Konunuzla en ilgili kategoriyi seçin. Başlıklarınız açıklayıcı olsun. \"Acil Yardım\", \"Buna bir bakın\" yerine, \"Uygulama arka planda kapanıyor (Android)\" gibi net başlıklar kullanın."
+        ]
+      },
+      {
+        "title": "Otonom Moderasyon",
+        "content": "Bu alan Pako topluluğu tarafından yönetilir. Karşılaştığınız kural ihlallerini yöneticilere etiketlemek ya da yetkili beklemek yerine \"Rapor (Flag)\" sistemini kullanarak moderatörlerin dikkatini çekebilirsiniz. Gerekli durumlarda topluluk adına inisiyatif alan moderatörlerin kararları kesindir."
+      }
+    ]
+  },
+  "communityTerms": {
+    "title": "Pako Topluluk Platformu Kullanım Sözleşmesi",
+    "description": "Pako topluluğuna hoş geldiniz! Bu sözleşme, Pako'nun merkeziyetsiz, patronsuz ve şeffaf ekosisteminin bir parçası olan bu forumu/platformu kullanırken uymanız gereken temel kuralları ve haklarınızı belirler. Platformu kullanarak bu sözleşmeyi kabul etmiş sayılırsınız.",
+    "sections": [
+      {
+        "title": "1. Platformun Amacı",
+        "content": "Bu platform; kuryeler, işletmeler, yazılım geliştiriciler ve yerel dayanışmaya inanan tüm destekçilerin bir araya geldiği, açık kaynak kültürünü ve Pako değerlerini büyütmek için kurulmuş bir iletişim merkezidir. Burası hiyerarşik bir müşteri hizmetleri kanalı değil, yatay ve eşitler arası bir yardımlaşma otonomisidir."
+      },
+      {
+        "title": "2. Kullanıcı Yükümlülükleri ve Hesaplar",
+        "list": [
+          "Gerçeklik ve Dürüstlük: Hesabınızı oluştururken verdiğiniz bilgilerin gerçeği yansıtması Pako'nun \"Şeffaflık\" ilkesinin bir gereğidir.",
+          "Hesap Güvenliği: Hesabınızın ve şifrenizin güvenliğinden siz sorumlusunuz. Hesabınız üzerinden yapılan tüm işlemlerden sizin sorumlu olduğunuzu kabul edersiniz.",
+          "Tekli Hesap Kullanımı: Topluluk manipülasyonunu engellemek amacıyla, birden fazla (spam/bot) hesap açılması yasaktır."
+        ]
+      },
+      {
+        "title": "3. İçerik ve Fikri Mülkiyet",
+        "list": [
+          "Açık Kaynak Ruhu: Platformda paylaştığınız her türlü öneri, kod parçası, geri bildirim ve fikir, (aksi belirtilmedikçe) Pako'nun açık kaynak ve kolektif havuzuna katkı olarak değerlendirilir.",
+          "Kullanıcı İçeriği Sorumluluğu: Platformda paylaştığınız mesajlar, görseller ve diğer tüm içerikler sizin sorumluluğunuzdadır. Pako, kullanıcıların paylaştığı içeriklerin yasal ve ahlaki sorumluluğunu üstlenmez.",
+          "İzinsiz Veri Çekimi Yasaktır: Platformdaki kullanıcı verileri ve tartışmalar, Pako'nun açık rızası olmadan ticari amaçlarla kazınamaz (scraping), kopyalanamaz veya satılamaz."
+        ]
+      },
+      {
+        "title": "4. Platform İşleyişi ve İhlaller",
+        "list": [
+          "Sistemin teknik altyapısına zarar vermeye çalışmak, zararlı yazılım dağıtmak veya diğer kullanıcıların deneyimini sabote etmek kesinlikle yasaktır ve hesaptan uzaklaştırılma sebebidir.",
+          "Platform otonom yöneticileri ve topluluk moderatörleri, kullanım sözleşmesine aykırı olan veya Pako ilkeleriyle(Manifestosu ile) uyuşmayan içerikleri düzenleme, taşıma veya silme hakkına sahiptir.",
+          "Kural ihlallerinde, uyarı, geçici uzaklaştırma veya kalıcı olarak platformdan men edilme yaptırımları uygulanabilir."
+        ]
+      },
+      {
+        "title": "5. Feragatname (Disclaimer)",
+        "content": "Pako, yazılımı, platformu ve hizmetleri \"olduğu gibi\" sunar. Platformun her zaman kesintisiz, hatasız veya %100 güvenli olacağını garanti etmeyiz. Açık kaynak projemizdeki geliştirme süreçleri topluluk çabasıyla yürütülmektedir. Olası veri kayıpları veya sistem kesintilerinden Pako otonomisi hukuki bir sorumluluk kabul etmez."
+      },
+      {
+        "title": "6. Değişiklikler",
+        "content": "Bu kullanım sözleşmesi, platformun ve Pako ekosisteminin evrimi doğrultusunda otonom kararlarla değiştirilebilir. Önemli değişiklikler topluluğa duyurulur."
+      }
+    ],
+    "footer": "Katkılarınızla bu sistemi daha iyi hale getirebileceğimizi unutmayın. Açık kaynağa, otonomiye ve adil teknolojiye güç verdiğiniz için teşekkürler!"
   }
 }

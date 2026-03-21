@@ -14,6 +14,8 @@ import { PressPage } from './pages/PressPage';
 import { CookiePolicyPage } from './pages/CookiePolicyPage';
 import { KvkkPage } from './pages/KvkkPage';
 import { TermsPage } from './pages/TermsPage';
+import { CommunityRulesPage } from './pages/CommunityRulesPage';
+import { CommunityTermsPage } from './pages/CommunityTermsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
 export const router = createBrowserRouter([
@@ -75,6 +77,14 @@ export const router = createBrowserRouter([
       {
         path: '/kullanim-ilkeleri',
         Component: TermsPage,
+      },
+      {
+        path: '/topluluk-kurallari',
+        Component: CommunityRulesPage,
+      },
+      {
+        path: '/topluluk-sozlesmesi',
+        Component: CommunityTermsPage,
       },
       {
         path: '*',
