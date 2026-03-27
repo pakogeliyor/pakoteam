@@ -20,7 +20,8 @@ export function HelpPage() {
       title: 'help.community',
       desc: 'help.communityDesc',
       action: 'help.join',
-      link: '/topluluk',
+      link: 'https://topluluk.pako.team/',
+      isExternal: true,
     },
     {
       title: 'help.pakoAI',

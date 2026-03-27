@@ -19,7 +19,9 @@ export function CommunitySection() {
           size="lg"
           className="text-xl font-medium tracking-tight h-auto py-4 px-8 mt-2 rounded-lg"
         >
-          <Link to="/topluluk">{t('home.community.cta')}</Link>
+          <a href="https://topluluk.pako.team/" target="_blank" rel="noopener noreferrer">
+            {t('home.community.cta')}
+          </a>
         </Button>
       </div>
     </section>

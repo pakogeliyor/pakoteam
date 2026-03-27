@@ -276,10 +276,10 @@
     },
     "communityPage": {
       "title": "Community",
-      "description": "The Pako Community is coming, where we will develop ideas and projects about bicycle life and produce solutions together in a participatory way."
+      "description": "The Pako Community is active! Join us to develop ideas and projects about bicycle life and produce solutions together in a participatory way."
     },
     "community": {
-      "title": "Pako is coming!",
+      "title": "Pako Community!",
       "description": "Join the Pako Community where ideas and projects about bicycle life are developed. Let's produce solutions together in a participatory way.",
       "cta": "community"
     },
@@ -306,7 +306,7 @@
   },
   "community": {
     "title": "Community",
-    "description": "The Pako Community is coming — a space where we will develop ideas and projects for cycling life, and co-create solutions together."
+    "description": "The Pako Community is active — a space where we develop ideas and projects for cycling life, and co-create solutions together."
   },
   "faq": {
     "title": "Frequently Asked Questions",

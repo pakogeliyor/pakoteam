@@ -82,7 +82,9 @@ export function HeroSection() {
             size="lg"
             className="mt-2 text-xl font-medium tracking-tight h-auto py-4 px-6"
           >
-            <Link to="/topluluk">{t('home.hero.cta')}</Link>
+            <a href="https://topluluk.pako.team/" target="_blank" rel="noopener noreferrer">
+              {t('home.hero.cta')}
+            </a>
           </Button>
         </div>
       </div>

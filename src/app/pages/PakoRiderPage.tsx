@@ -80,7 +80,9 @@ export function PakoRiderPage() {
             size="lg"
             className="rounded-lg px-6 py-6 font-['Overpass',sans-serif] text-xl font-medium tracking-tight h-auto transition-all active:scale-[0.98]"
           >
-            <Link to="/topluluk">{t('pakoRider.joinCommunity')}</Link>
+            <a href="https://topluluk.pako.team/" target="_blank" rel="noopener noreferrer">
+              {t('pakoRider.joinCommunity')}
+            </a>
           </Button>
           <Button
             asChild

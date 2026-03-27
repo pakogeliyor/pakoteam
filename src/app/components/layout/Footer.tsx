@@ -55,7 +55,11 @@ export function Footer() {
   ];
 
   const footerMenu2 = [
-    { label: t('footer.community'), path: '/topluluk' },
+    {
+      label: t('footer.community'),
+      path: 'https://topluluk.pako.team/',
+      isExternal: true,
+    },
     { label: t('footer.pkoop'), path: '#' },
     { label: t('footer.support'), path: '/destek-ol' },
     { label: t('footer.help'), path: '/yardim' },
@@ -134,15 +138,27 @@ export function Footer() {
 
         {/* Menu Column 2 */}
         <nav className="flex min-w-44 flex-1 flex-col gap-1">
-          {footerMenu2.map((item, index) => (
-            <Link
-              key={index}
-              to={item.path}
-              className="font-['Overpass',sans-serif] font-light text-black dark:text-white transition-opacity hover:opacity-70"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {footerMenu2.map((item, index) =>
+            item.isExternal ? (
+              <a
+                key={index}
+                href={item.path}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-['Overpass',sans-serif] font-light text-black dark:text-white transition-opacity hover:opacity-70"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={index}
+                to={item.path}
+                className="font-['Overpass',sans-serif] font-light text-black dark:text-white transition-opacity hover:opacity-70"
+              >
+                {item.label}
+              </Link>
+            )
+          )}
         </nav>
 
         {/* Menu Column 3 */}
