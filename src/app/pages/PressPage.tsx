@@ -243,9 +243,6 @@ export function PressPage() {
       <section className="py-24">
         <Container>
           <div className="max-w-2xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center size-16 bg-gray-100 dark:bg-gray-800 rounded-full mb-8">
-              <LucideExternalLink className="size-8 text-[var(--color-primary)]" />
-            </div>
             <h2 className="font-['Overpass',sans-serif] text-3xl font-extrabold text-black dark:text-white mb-6">
               {t('press.contactTitle')}
             </h2>
@@ -253,10 +250,10 @@ export function PressPage() {
               {t('press.contactDesc')}
             </p>
             <a
-              href="mailto:basin@pako.com"
+              href="mailto:pakogeliyor@gmail.com"
               className="font-['Overpass_Mono',sans-serif] text-2xl md:text-3xl font-bold text-[var(--color-primary)] dark:text-[var(--color-secondary)] hover:underline decoration-4 underline-offset-8"
             >
-              basin@pako.com
+              pakogeliyor@gmail.com
             </a>
           </div>
         </Container>

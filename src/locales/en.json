@@ -104,7 +104,7 @@
     "buttons": {
       "logo": "Logo Package (SVG/PNG)",
       "photos": "Photo Archive",
-      "guidelines": "Pako Corporate Identity Guidelines (PDF)"
+      "guidelines": "Pako Visual Identity Guide (PDF)"
     }
   },
   "help": {
@@ -122,27 +122,28 @@
   },
   "support": {
     "title": "Support Us",
-    "intro": {
-      "description1": "Knowing that you support Pako from the heart is the most important thing for us because this atmosphere of belief allows us to work and produce more towards our goals. You can give us the greatest support by becoming a member of our community, following Pako on social media channels and writing comments.",
-      "description2": "On the other hand, Pako's non-profit community structure, whose social side outweighs its economic side, also needs physical support for its continuity:",
-      "list": [
+    "content": {
+      "intro1": "Knowing that you support Pako from the heart is the most important thing for us because this atmosphere of belief allows us to work and produce more towards our goals. You can give us the greatest support by becoming a member of our community, following Pako on social media channels and writing comments.",
+      "intro2": "On the other hand, Pako's non-profit community structure, whose social side outweighs its economic side, also needs physical support for its continuity:",
+      "introList": [
         "We are a bicycle-centric formation and all kinds of bicycle materials benefit us,",
         "Financial resources for the necessary equipment for our friends running operations in the field are very useful for us,",
         "You can contribute with your software knowledge to the development of Pako Rider, which we developed as open source and aims to support local producers with their bicycle, and which everyone can access for free,",
         "You can provide financial contribution for the hosting and development of Pako Rider."
-      ]
+      ],
+      "openSourceLogisticsTitle": "Open Source Logistics",
+      "openSourceLogisticsText": "Our physical operation model is open source just like our software. Our distribution routes, bicycle maintenance protocols and community rules are transparent and open to everyone's access, copying and application in their region. Pako is not a \"closed shop\", but a model open to sharing.",
+      "governanceTitle": "Governance",
+      "governanceText": "There are no bosses in Pako; instead, there is a collective mind. Decisions are made through community-driven initiatives and horizontal organization. Equality and solidarity are essential, not hierarchy.",
+      "budgetTitle": "Public Budget Draft & Needs",
+      "budgetText": "Pako's financial structure is transparent. We allocate budget to items such as a spare parts fund, depot rent, server expenses, and community events to ensure the sustainability of our community. Your support directly funds these vital needs.",
+      "transparencyTitle": "Real-time Transparency",
+      "transparencyText": "Pako's financial accountability is not just on paper, it's real-time. You can track all our income and expenses instantly through the live ledger below."
     },
-    "github": {
-      "title": "Contribute to the repo",
-      "description": "Examine the software, contribute, and don't forget to share your views and suggestions with us.",
-      "cta": "github"
-    },
-    "bank": {
-      "title": "Bank Accounts",
-      "description": "You can use PKOOP's bank accounts below for donations.",
-      "bank1": "Bank 1",
-      "bank2": "Bank 2",
-      "note": "In Pako, which takes decisions collectively as a cooperative, expenditures are transparent like every other subject. Your right to request information from PKOOP about the issues discussed in our board meetings, decisions and expenditures is reserved."
+    "openCollective": {
+      "title": "Support us on Open Collective",
+      "cta": "Go to Open Collective",
+      "url": "https://opencollective.com/pakogeliyor"
     },
     "banner": {
       "text": "Be a part of Pako's non-profit mission and social movement,",
@@ -263,6 +264,12 @@
       "line2": "Choose your bike.",
       "description": "Join the community, let's create a fair system together in the cycle of the bicycle.",
       "cta": "join"
+    },
+    "hero2": {
+      "line1": "Support",
+      "line2": "our mission",
+      "description": "View our page and see how you can support Pako.",
+      "cta": "Support us"
     },
     "whatIsPako": {
       "title": "What is Pako?",

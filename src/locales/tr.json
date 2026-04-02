@@ -105,7 +105,7 @@
     "buttons": {
       "logo": "Logo Paketi (SVG/PNG)",
       "photos": "Fotoğraf Arşivi",
-      "guidelines": "Pako Kurumsal Kimlik Klavuzu (PDF)"
+      "guidelines": "Pako Görsel Kimlik Rehberi (PDF)"
     }
   },
   "help": {
@@ -123,27 +123,28 @@
   },
   "support": {
     "title": "Destek ol",
-    "intro": {
-      "description1": "Pako'yu yürekten desteklediğini bilmek bizim için en önemlisidir çünkü bu inanış atmosferi bizim hedeflerimiz doğrultusunda daha çok çalışmamızı ve üretmemizi sağlıyor. Topluluğuza üye olarak, sosyal medya kanallarıda Pako'yu takip ederek ve yorum yazarak bize en büyük desteği vermiş olursun.",
-      "description2": "Öte yandan Pako'nun sosyal tarafı ekonomik yönünden ağır basan, kâr amacı gütmeyen topluluk yapısı devamlılığı için fiziksel desteğe de ihtiyacı duyuyor:",
-      "list": [
+    "content": {
+      "intro1": "Pako'yu yürekten desteklediğini bilmek bizim için en önemlisidir çünkü bu inanış atmosferi bizim hedeflerimiz doğrultusunda daha çok çalışmamızı ve üretmemizi sağlıyor. Topluluğuza üye olarak, sosyal medya kanallarıda Pako'yu takip ederek ve yorum yazarak bize en büyük desteği vermiş olursun.",
+      "intro2": "Öte yandan Pako'nun sosyal tarafı ekonomik yönünden ağır basan, kâr amacı gütmeyen topluluk yapısı devamlılığı için fiziksel desteğe de ihtiyacı duyuyor:",
+      "introList": [
         "Bisiklet merkezli bir oluşumuz ve her türlü bisiklet malzemesi bize fayda sağlar,",
         "Sahada operasyon yürüten arkadaşlarımıza gerekli ekipmanlar için maddi kaynak çok işimize yarar,",
         "Açık kaynak olarak geliştirdiğimiz ve bisikletiyle yerel üreticilere destek olmayı amaçlayan, herkesin ücretsiz ulaşabileceği Pako Rider'ın geliştirilmesinde yazılım bilgin ile katkıda bulunabilirsin,",
         "Pako Rider'ın barınması ve geliştirilmesi için maddi katkı sağlayabilirsin."
-      ]
+      ],
+      "openSourceLogisticsTitle": "Açık Kaynak Lojistik",
+      "openSourceLogisticsText": "Fiziksel operasyon modelimiz de yazılımımız gibi açık kaynaklıdır. Dağıtım rotalarımız, bisiklet bakım protokollerimiz ve topluluk kurallarımız şeffaftır ve herkesin erişimine, kopyalamasına ve kendi bölgesinde uygulamasına açıktır. Pako bir \"kapalı dükkan\" değil, paylaşıma açık bir modeldir.",
+      "governanceTitle": "Yönetişim (Governance)",
+      "governanceText": "Pako'da patron yoktur, kolektif akıl vardır. Kararlar topluluk inisiyatifleri ve yatay örgütlenme ile alınır. Hiyerarşi değil, eşitlik ve dayanışma esastır.",
+      "budgetTitle": "Bütçe ve İhtiyaçlar",
+      "budgetText": "Pako'nun finansal yapısı şeffaftır. Topluluğumuzun sürdürülebilirliği ve hedeflerimiz için yedek parça fonu, merkez kirası, sunucu giderleri ve topluluk etkinlikleri gibi kalemlere bütçe ayırıyoruz. Destekleriniz doğrudan bu ihtiyaçlara yönlendirilir.",
+      "transparencyTitle": "Gerçek Zamanlı Şeffaflık",
+      "transparencyText": "Pako'nun finansal hesap verilebilirliği kağıt üzerinde değil, gerçek zamanlıdır. Aşağıdaki canlı defter üzerinden tüm gelir ve giderlerimizi anlık olarak takip edebilirsiniz."
     },
-    "github": {
-      "title": "Repoya katkıda bulun",
-      "description": "Yazılımı incele, katkıda bulun ayrıca görüş ve önerilerini bizimle paylaşmayı unutma.",
-      "cta": "github"
-    },
-    "bank": {
-      "title": "Banka Hesapları",
-      "description": "Bağış için PKOOP'un aşağıdaki banka hesaplarını kullanabilirsin.",
-      "bank1": "Banka 1",
-      "bank2": "Banka 2",
-      "note": "Kooperatif olarak kollektif şekilde karar alan Pako'da harcamalar da diğer her konu gibi şeffaftır. Kurul toplantılarımızda ele alınan konular, kararlar ve harcamalar hakkında PKOOP'dan bilgi talep etme hakkınız saklıdır."
+    "openCollective": {
+      "title": "Open Collective üzerinden destek ol",
+      "cta": "Open Collective'e Git",
+      "url": "https://opencollective.com/pakogeliyor"
     },
     "banner": {
       "text": "Pako’nun kâr amacı gütmeyen misyonu ve sosyal hareketinin bir parçası ol,",
@@ -264,6 +265,12 @@
       "line2": "Bisikletini Seç.",
       "description": "Topluluğa katıl, birlikte bisikletin döngüsünde adil bir sistem oluşturalım.",
       "cta": "katıl"
+    },
+    "hero2": {
+      "line1": "Misyonumuzu",
+      "line2": "destekleyin",
+      "description": "Sayfamızı inceleyin ve Pako'ya nasıl destek olabileceğinizi görün.",
+      "cta": "Destek ol"
     },
     "whatIsPako": {
       "title": "Pako nedir?",

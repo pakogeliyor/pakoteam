@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { useTranslation } from 'react-i18next';
 
 import heroVideo from '../../../assets/03034.webm';
-import heroImage from '@assets/images/hero_image.png';
+import heroMelih from '@assets/images/hero_melih.JPG';
 
 import { Button } from '../ui/button';
 
@@ -13,8 +13,32 @@ export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const slides = [
-    { type: 'video', src: heroVideo, duration: 20000 },
-    { type: 'image', src: heroImage, duration: 10000 },
+    {
+      type: 'video',
+      src: heroVideo,
+      duration: 15000,
+      content: {
+        line1: t('home.hero.line1'),
+        line2: t('home.hero.line2'),
+        description: t('home.hero.description'),
+        cta: t('home.hero.cta'),
+        link: 'https://topluluk.pako.team/',
+        external: true,
+      },
+    },
+    {
+      type: 'image',
+      src: heroMelih,
+      duration: 15000,
+      content: {
+        line1: t('home.hero2.line1'),
+        line2: t('home.hero2.line2'),
+        description: t('home.hero2.description'),
+        cta: t('home.hero2.cta'),
+        link: '/destek-ol',
+        external: false,
+      },
+    },
   ];
 
   useEffect(() => {
@@ -64,29 +88,45 @@ export function HeroSection() {
         <div className="absolute inset-0 z-10 bg-gradient-to-r from-transparent to-[rgba(41,0,121,0.5)] dark:to-[rgba(0,0,0,0.5)]" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-20 flex w-full max-w-[var(--content-max-width)] flex-col items-end px-4 md:px-8 lg:px-20">
-        <div className="flex flex-col items-end gap-2 text-right">
-          <p className="font-['Overpass',sans-serif] text-4xl font-extralight leading-tight text-[var(--color-gray-100)] md:text-5xl lg:text-[80px] lg:leading-[80px]">
-            {t('home.hero.line1')}
-          </p>
-          <p className="font-['Overpass',sans-serif] text-4xl font-bold leading-tight text-[var(--color-gray-100)] md:text-5xl lg:text-[80px] lg:leading-[80px]">
-            {t('home.hero.line2')}
-          </p>
-          <p className="max-w-lg font-['Overpass',sans-serif] text-lg font-light leading-relaxed tracking-tight text-[var(--color-gray-100)] md:text-2xl lg:text-[32px] lg:leading-[40px]">
-            {t('home.hero.description')}
-          </p>
-          <Button
-            asChild
-            variant="primary"
-            size="lg"
-            className="mt-2 text-xl font-medium tracking-tight h-auto py-4 px-6"
-          >
-            <a href="https://topluluk.pako.team/" target="_blank" rel="noopener noreferrer">
-              {t('home.hero.cta')}
-            </a>
-          </Button>
-        </div>
+      {/* Content Slider */}
+      <div className="relative z-20 grid w-full max-w-[var(--content-max-width)] px-4 md:px-8 lg:px-20">
+        {slides.map((slide, index) => {
+          const isActive = index === currentSlide;
+          return (
+            <div
+              key={index}
+              className={`[grid-area:1/1] flex flex-col items-center gap-2 text-center transition-opacity duration-1000 ${
+                isActive ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+              }`}
+            >
+              <p className="font-['Overpass',sans-serif] text-4xl font-extralight leading-tight text-[var(--color-gray-100)] md:text-5xl lg:text-[80px] lg:leading-[80px]">
+                {slide.content.line1}
+              </p>
+              {slide.content.line2 && (
+                <p className="font-['Overpass',sans-serif] text-4xl font-bold leading-tight text-[var(--color-gray-100)] md:text-5xl lg:text-[80px] lg:leading-[80px]">
+                  {slide.content.line2}
+                </p>
+              )}
+              <p className="max-w-lg font-['Overpass',sans-serif] text-lg font-light leading-relaxed tracking-tight text-[var(--color-gray-100)] md:text-2xl lg:text-[32px] lg:leading-[40px]">
+                {slide.content.description}
+              </p>
+              <Button
+                asChild
+                variant="primary"
+                size="lg"
+                className="mt-2 text-xl font-medium tracking-tight h-auto py-4 px-6"
+              >
+                {slide.content.external ? (
+                  <a href={slide.content.link} target="_blank" rel="noopener noreferrer">
+                    {slide.content.cta}
+                  </a>
+                ) : (
+                  <Link to={slide.content.link}>{slide.content.cta}</Link>
+                )}
+              </Button>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
